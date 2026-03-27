@@ -84,7 +84,7 @@ export function HeroSection() {
 
             <InPageLink
               href="#contact"
-              className="mt-8 inline-flex items-center justify-center rounded-full bg-foreground px-12 py-4 text-[0.72rem] font-medium uppercase tracking-[2.5px] text-background transition-all duration-300 hover:bg-primary hover:text-on-primary"
+              className="mt-8 inline-flex items-center justify-center rounded-full bg-primary px-12 py-4 text-[0.72rem] font-medium uppercase tracking-[2.5px] text-on-primary transition-all duration-300 hover:bg-primary-dim"
             >
               {site.hero.ctaPrimaryMobile}
             </InPageLink>
